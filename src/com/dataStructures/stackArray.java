@@ -14,7 +14,7 @@ public class stackArray<T> implements stackInterface<T> {
         top = 0;
     }
 
-    //Test Comment
+    //test comment
 
     public void push(T element){
 

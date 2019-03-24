@@ -14,6 +14,8 @@ public class stackArray<T> implements stackInterface<T> {
         top = 0;
     }
 
+    //Test Comment
+
     public void push(T element){
 
         if (top == maxSize){
@@ -36,13 +38,6 @@ public class stackArray<T> implements stackInterface<T> {
     }
 
     private void arrayResize(){
-        /*
-        T[] tempArray = (T[]) new Object[maxSize *2];
-
-        for(int i = 0; i < maxSize; i++){
-            tempArray[i] = array[i];
-        }
-        */
 
         array = Arrays.copyOf(array, maxSize * 2);
         maxSize *= 2;

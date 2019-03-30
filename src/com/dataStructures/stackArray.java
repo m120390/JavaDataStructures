@@ -43,7 +43,7 @@ public class stackArray<T> implements stackInterface<T> {
      */
     public T pop(){
 
-        if (stackPointer == 0){
+        if (isEmpty()){
             throw new IllegalStateException("Stack is empty. Can't pop any more items!");
         }
 
@@ -66,7 +66,7 @@ public class stackArray<T> implements stackInterface<T> {
         return array[stackPointer - 1];
     }
 
-    public boolean isEmpty(){
+    private boolean isEmpty(){
         return stackPointer == 0;
     }
 

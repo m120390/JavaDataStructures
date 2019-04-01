@@ -2,14 +2,14 @@ package com.testDataStructures;
 
 import com.dataStructures.*;
 
-public class testStackImplementation {
+public class TestStackImplementation {
 
     public static void main(String [] args){
-        stackInterface<String> callStack = new stackArrayList<>();
-        //stackInterface<String> callStack = new stackArray<>();
+        //StackInterface<String> callStack = new StackArrayList<>();
+        StackInterface<String> callStack = new StackArray<>();
 
-        //Test the following test cases when stackArray is initiated with an initial array size
-        //stackArray<String> callStack = new stackArray<>(3);
+        //Test the following test cases when StackArray is initiated with an initial array size
+        //StackArray<String> callStack = new StackArray<>(3);
 
         /*Test Case #1: Verify that default stack can be filled to max capacity */
         System.out.println("Test Case #1: Fill stack to max capacity. Not relevant for ArrayList Implementation");

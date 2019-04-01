@@ -1,6 +1,6 @@
 package com.dataStructures;
 
-public interface stackInterface<T> {
+public interface StackInterface<T> {
     void push(T number);
     T pop();
     T peek();

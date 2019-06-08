@@ -1,6 +1,6 @@
-package com.dataStructures;
+package Interfaces;
 
-public interface QueueInterface<T> {
+public interface Queue<T> {
     void enQueue(T number);
     T deQueue();
     T head();
